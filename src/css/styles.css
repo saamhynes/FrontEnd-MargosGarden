@@ -1,0 +1,28 @@
+/**
+ *      QAP1 - FRONT-END & JAVASCRIPT
+ *
+ *      Name:       <SAMANTHA_HYNES>
+ *
+ *      Date:       <MAY_31_2023>
+ */
+
+table {
+  background-color: lightblue;
+}
+
+th {
+  padding: 10px;
+
+  justify-content: space-evenly;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+td {
+  color: white;
+  padding: 10px;
+}

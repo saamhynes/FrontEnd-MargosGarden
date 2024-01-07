@@ -1,0 +1,83 @@
+<!-- *
+ *      QAP1 - FRONT-END & JAVASCRIPT
+ *
+ *      Name:       <SAMANTHA_HYNES>
+ *
+ *      Date:       <MAY_31_2023>
+ * -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Change this to your name-->
+    <meta name="author" content="Samantha Hynes" />
+    <meta name="description" content="QAP1" />
+
+    <title>Margo's Garden</title>
+
+    <!-- Optional CSS Overrides -->
+
+    <link rel="stylesheet" href="/src/css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css"
+    />
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <header>
+          <!-- Change this to your Store's info -->
+          <h1>Margo's Garden</h1>
+          <p>All You Can Plant</p>
+        </header>
+
+        <nav id="category-menu" class="nav">
+          <!-- Dynamically create your menu category buttons here -->
+          <!-- <button id="flowers">Flowers</button>
+        <button id="indoorPlants">Indoor Plants</button>
+        <button id="trees">Trees</button>
+        <button id="vegSeeds">Vegetable Seeds</button>
+        <button id="flowerSeeds">Flower Seeds</button> -->
+        </nav>
+
+        <hr />
+
+        <main>
+          <h2 id="header">
+            <div id="categories">
+              <!-- Dynamically update the selected category title -->
+            </div>
+          </h2>
+
+          <table id="data" class="u-full-width">
+            <!-- Statically create the headings for your table here -->
+
+            <!-- <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+          </thead> -->
+
+            <tbody id="products">
+              <!-- Dynamically create your product rows here -->
+            </tbody>
+          </table>
+        </main>
+
+        <!-- JavaScript Data Files -->
+        <script src="./js/categories.js"></script>
+        <script src="./js/products.js"></script>
+
+        <!-- Main App JavaScript File -->
+        <script src="./js/app.js"></script>
+      </div>
+    </center>
+  </body>
+</html>
